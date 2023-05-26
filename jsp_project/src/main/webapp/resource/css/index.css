@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 20px 0 20px 0;
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+}
+.slide {
+    clear: both;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.slide>div {
+    position: absolute;
+    display: flex;
+}
